@@ -319,3 +319,386 @@ nav ul li {
     padding:7px 0;
     width: 100%;
 }
+.features{
+    width: 80%;
+    margin:auto;
+    padding:50px 0;
+}
+.fttitle{
+  padding: 20px;
+    margin-top: 50px;
+}
+.topfeatures h1{
+    text-align: center;
+}
+.topfeatures .underline{
+    margin:auto;
+    right:0;
+    left:0;
+}
+.topfeatures p{
+    padding:20px;
+    width:750px;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.featuregrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+    overflow: auto;
+   margin:80px 0;
+}
+.fgg{
+    width:100%;
+    height:310px;
+}
+.imglog{
+    margin: auto;
+    width:72px;
+    padding:40px 0 15px 0;
+}
+.fgg h3{
+    text-align: center;
+    padding:0 0 10px 0;
+    font-size: 21px;
+    font-weight: bold;
+    color:#232044;
+}
+
+.fgg p{
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px;
+    font-size: 14px;   
+}
+.portinner{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+.portinner .underline{
+    margin: auto;
+}
+.portinner h1{
+    padding:20px 0 20px 10px;
+}
+.portinner p{
+    width:750px;
+    margin: auto;
+    padding:20px;
+}
+.navlink{
+    width:800px;
+    margin: auto;
+}
+.navlink ul li{
+    display: inline-block;
+    padding:20px 20px;
+    background-color: #242047;
+    color:#26baff;
+}
+.mozaic{
+    width: 80%;
+    margin:50px auto;
+    overflow: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.mosaicimage img{
+ width: 100%;
+    height: 350px;
+}
+
+.ratings{
+    width: 100%;
+    height: 80%;
+    background-color: red;
+   margin-top:100px;
+    background-image: linear-gradient(rgba(25, 28, 65, .8), rgba(25, 28, 65, .8)),url(../images/promo_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.ratingsinner{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top:50%;
+    transform: translatey(-50%);
+  
+}
+.rat{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.rlogo{
+    width: 75px;
+    margin: auto;
+    padding:40px 0 0 10px;
+}
+.rat h3{
+    color:white;
+    text-align: center;
+    padding:30px 10px 0px 30px;
+    font-size: 2em;
+}
+.rat p{
+    color:white;
+    text-align:center;
+    font-size: 26px;
+    padding: 10px 0 10px 20px;
+}
+.expertteam{
+    width: 100%;
+    overflow: auto;
+}
+.etinner{
+    width: 80%;
+    margin:100px auto;
+    text-align: center;
+  
+}
+
+.ettitle .underline{
+    margin: auto;
+}
+.ettitle h1{
+    padding:20px;
+}
+.ettitle p{
+    padding:20px;
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 500;
+}
+.etgrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+.etgr{
+    width: 100%;
+}
+.etgr img{
+    height: 311px;
+    width: 100%; 
+}
+.ettext h1{
+    font-size: 26px;
+    font-weight: 100;
+    text-align: left;
+    padding:5px;
+}
+.ettext p{
+    font-size: 16px;
+       font-weight: 100;
+    text-align: left;
+    padding:5px;
+}
+.eimg img{
+    height: 311px;
+    width: 100%;
+}
+.scale{
+    width: 100%;
+    height: 311px;
+    overflow:hidden;
+}
+.scale img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.ourpackages{
+    width: 100%;
+    overflow: auto;
+    background-color: #f6f6f6;
+    padding-bottom: 100px;
+}
+.pinner{
+    margin:100px auto;
+    width: 80%;
+}
+.leftpack{
+    width: 40%;
+    float:left;
+    margin-top: 20%;
+}
+.leftpack h1{
+    padding:10px;
+}
+.leftpack .underline{
+    margin-left: 13px;
+}
+.leftpack p{
+    padding:20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.rightpack{
+    width:60%;
+    float:left;
+}
+.packbox{
+    width: 100%;    
+    margin: auto;
+}
+.rpack1{
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    float: left;
+    margin-top: 50px;
+    opacity: .5;
+    position: relative;
+    overflow: hidden;
+}
+.rpack2{
+    width: 45%;
+    height: 500px;
+     background-color: white;
+   float:left;
+    overflow: hidden;
+    position: relative;
+
+}
+.object{
+    height: 160px;
+    width: 100%;
+    background-color: #26BAFF;
+    border-radius: 70px;
+    transform: rotate(30deg);
+    position: absolute;
+    left:-15%;
+    top:-10%; 
+}
+.rpack3{
+  margin-top: 50px;
+  width: 25%;
+    height: 400px;
+     background-color: white;
+   float: left;
+    opacity: .5;
+      position: relative;
+    overflow: hidden;
+}
+.packtitle{
+    position: relative;
+    text-align: center;
+    color:white;
+    font-weight: 200;
+    top:25px;
+}
+.packtitle span{
+    font-size:18px;
+}
+.serv{
+    margin-top:100px;
+}
+.rpack2 ul{
+    text-align:center;
+}
+.rpack2 ul li{
+    padding:10px;
+    font-weight: 500;
+}
+.sbut{
+    margin:20px auto;
+    width: 140px;
+}
+.sbut a{
+    padding:10px 25px 10px 25px;
+    border:1px solid #26BAFF;
+    text-decoration: none;
+    color:black;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.rpackcom .object{
+   left:-7%;
+    top:-7%;
+    height: 130px;
+    width: 170px;   
+}
+.packsmall{
+    top:5px;
+    left:0;
+   
+}
+.servsmall{
+    margin-top: 50px;
+}
+.servsmall li{
+    padding:5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.ceopage{
+    width: 100%;
+    height: 100%;
+       background-image: linear-gradient(rgba(25, 28, 65, .8), rgba(25, 28, 65, .8)),url(../images/promo_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+.midlogo{
+    margin: auto;
+    width: 126px;
+    padding:40px 0 40px 0;
+    
+}
+.name{
+    position: relative;
+     top:120px;
+}
+.name h1{
+    font-size: 16px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+.name h3{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+.ceopage p{
+    text-align: center;
+    width: 70%;
+    margin:40px auto;
+    position: relative;
+    line-height: 1.7;
+    font-size: 20px;
+}
+.navigationdot{
+    width: 75px;
+    margin: auto;
+    height: 30px;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    float: left;
+   margin:0 5px 0 5px;
+}
+.dot:hover{
+    transform: scale(1.3);
+}
