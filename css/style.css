@@ -349,14 +349,47 @@ nav ul li {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
     width: 100%;
     overflow: auto;
    margin:80px 0;
 }
 .fgg{
-    width:100%;
-    height:310px;
+    width:90%;
+    height:280px;
+    position: relative;
+    padding-top: 15px;
+  
+}
+
+.fgg::before{
+    position: absolute;
+    height: 0;
+    width: 0;
+    transition: .4s;
+    right: 0px;
+    top: 0px;
+    content:'';
+}
+.fgg::after{
+        position: absolute;
+    height: 0;
+    width: 0;
+    transition: .4s;
+    bottom: 0px;
+    content:'';
+}
+.fgg:hover::before{
+        border-top: 1px solid #26baff;
+    border-right: 1px solid #26baff;
+    height: 130px;
+    width: 130px;
+}
+.fgg:hover::after{
+    border-left: 1px solid #26baff;
+    border-bottom: 1px solid #26baff;
+    height: 130px;
+    width: 130px;
 }
 .imglog{
     margin: auto;
@@ -368,7 +401,7 @@ nav ul li {
     padding:0 0 10px 0;
     font-size: 21px;
     font-weight: bold;
-    color:#232044;
+   
 }
 
 .fgg p{
@@ -407,17 +440,41 @@ nav ul li {
 .mozaic{
     width: 80%;
     margin:50px auto;
-    overflow: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px 350px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 .mosaicimage img{
- width: 100%;
+    width: 100%;
     height: 350px;
 }
 
+.mosaicimage{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.mz{
+    position: relative;
+
+}
+.mz::before{
+    content:'';
+    width: 100%;
+    top:50%;
+    position: absolute;
+    transform: translateY(-50%);
+    height: 0;
+    transition: .5s;
+        background-color: aqua;
+    z-index: 1;
+}
+.mz:hover::before{
+    height:100%;
+    opacity: .5;
+    
+}
 .ratings{
     width: 100%;
     height: 80%;
@@ -807,8 +864,19 @@ nav ul li {
 }
 .continner{
     width: 80%;
+    overflow: auto;
     margin: auto;
+     box-shadow: -1px 2px 26px -6px #000000;
+    padding:40px;
 
+}
+.conttitle{
+    margin:100px auto;
+    text-align: center;
+   
+}
+.conttitle .underline{
+    margin: auto;
 }
 .contleft{
     width: 50%;
@@ -819,4 +887,100 @@ nav ul li {
     width: 50%;
     float:left;
     padding:20px;
+}
+.conttitle h1{
+    padding:10px;
+}
+.conttitle p{
+    margin: auto;
+    width: 60%;
+    padding:20px;
+    line-height: 1.5;
+}
+.contleft{
+    float:left;
+    
+}
+.contleft input{
+    width: 100%;
+    border:none;
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+.contleft h3{
+    font-weight:400;
+    color:gray;
+    font-size: 22px;
+    padding:15px 0 8px 0;
+}
+input[name="message"]{
+    border:1px solid black;
+    height: 100px;
+    width: 100%;
+    
+}
+input[type="submit"]{
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border:1px solid black;
+    color:gray;
+   
+}
+.contright{
+    padding: 20px 20px 20px 30px;
+    
+}
+.cnt{
+    width: 90%;
+    height: 100px;
+    margin-top: 20px; 
+}
+.cnt:hover{
+      box-shadow: -1px 2px 26px -6px #000000;
+    transition: .3s;
+}
+.cnt img{
+    padding:28px;
+    float:left;
+}
+.cnt p{
+    float:left;
+   padding:38px 20px;
+    width: 60%;
+    color:gray;
+    font-size: 14px; 
+}
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: #242047;
+   top: 230px;
+    position: relative;
+}
+.footerinner{
+    width: 80%;
+    margin: auto;
+}
+footer p{
+    line-height:  150px;
+    color:white;
+    font-size: 1.2em;
+    float:left;
+    
+}
+.social i{
+     border-radius: 50%;
+    border:1px solid white;
+    height: 50px;
+    width: 50px;
+     padding:15px;
+    margin-left: 10px;
+}
+.social{
+    float:right;
+    line-height: 150px;
+    font-size: 18px;
+    color:white;
 }
