@@ -979,8 +979,10 @@ footer p{
     margin-left: 10px;
 }
 .social{
-    float:right;
+
     line-height: 150px;
     font-size: 18px;
     color:white;
+    position: absolute;
+    right:10%;
 }
